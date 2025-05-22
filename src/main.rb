@@ -46,3 +46,13 @@ if _FILE_ == $0
   puts "PDF gerado em data/relatorio.pdf"
 end
 >>>>>>> 2572c063f5c1de0fe934964ebd90782c23f783d5
+require 'tty-prompt'
+
+prompt = TTY::Prompt.new
+
+caminho_csv = prompt.ask("Digite o caminho do arquivo CSV para gerar o relatório:", default: "data/entrada.csv")
+
+dados = ler_csv(caminho_csv)
+gerar_pdf(dados, "data/relatorio.pdf")
+
+puts "PDF gerado com sucesso!"
