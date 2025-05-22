@@ -1,0 +1,37 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.1.9)
+    csv (3.3.4)
+    matrix (0.4.2)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
+    pdf-core (0.10.0)
+    prawn (2.5.0)
+      matrix (~> 0.4)
+      pdf-core (~> 0.10.0)
+      ttfunk (~> 1.8)
+    ttfunk (1.8.0)
+      bigdecimal (~> 3.1)
+    tty-color (0.6.0)
+    tty-cursor (0.7.1)
+    tty-prompt (0.23.1)
+      pastel (~> 0.8)
+      tty-reader (~> 0.8)
+    tty-reader (0.9.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.8)
+      wisper (~> 2.0)
+    tty-screen (0.8.2)
+    wisper (2.0.1)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  csv
+  prawn
+  tty-prompt
+
+BUNDLED WITH
+   2.6.9
