@@ -21,7 +21,7 @@ Este projeto tem como objetivo desenvolver um software em Ruby que leia dados a 
 
 ## Estrutura do Projeto
 
-```
+
 
 Leitor-relatorios-ruby/
 ├── Gemfile               # Declaração das dependências
@@ -33,32 +33,32 @@ Leitor-relatorios-ruby/
 │   └── relatorio.pdf     # Relatório gerado em PDF
 └── README.md             # Documentação do projeto
 
-````
+
 
 ## Instalação e Execução
 
 1. Clone o repositório:
    ```bash
    git clone https://github.com/usuario/Leitor-relatorios-ruby.git
-````
+
 
 2. Acesse o diretório do projeto:
 
    ```bash
    cd Leitor-relatorios-ruby
-   ```
+   
 
 3. Instale as dependências:
 
    ```bash
    bundle install
-   ```
+   
 
 4. Execute o sistema:
 
    ```bash
    ruby src/main.rb
-   ```
+   
 
 ## Desenvolvimento Colaborativo
 
