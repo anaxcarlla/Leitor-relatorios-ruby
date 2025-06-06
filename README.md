@@ -1,6 +1,4 @@
 
-
-```markdown
 # Leitor de Relatórios – Geração de PDF a partir de dados CSV
 
 ## Objetivo
